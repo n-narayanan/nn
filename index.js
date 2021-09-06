@@ -7,10 +7,7 @@ fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
     })
     .then((data) => {
         data.forEach(article => {
-            console.log(JSON.stringify(article));
-            
-            
-            
+ 
             let article_img = document.createElement("img");
             article_img.alt = "article image";
             article_img.className = "article-img";
@@ -40,11 +37,11 @@ fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
             article_div.appendChild(article_image);
             article_div.appendChild(article_content);
 
-            // article_div.onclick(() => {
-            //     location.href = article.link;
-            // })
+            article_div.onclick = (e, data) => {
+                window.open(article.link);
+            }
 
-
+            article_list.appendChild(article_div);
         });
     })
     .catch(err => console.log("Error Thrown fetching articles from server" + err));

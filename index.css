@@ -1,11 +1,10 @@
 html{
-    font-family: Georgia, sans-serif;
-    background-color: aliceblue;
+    
 }
 
 .root-container {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 
@@ -23,7 +22,9 @@ html{
 }
 
 .nav-bar {
-
+    font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 .nav-menu {
@@ -36,16 +37,19 @@ html{
 
 .article-list{
     padding: 40px;
-    background: lavenderblush;
 }
 
 .article-div {
     /* margin: 0 auto;
-        width: 80%; */
+    width: 80%; */
     margin: 40px 0px;
-    display: flex;    
-    background: rgb(236, 247, 247);
-    flex-direction: row;
+    display: flex; 
+    cursor: pointer;
+    text-align: justify;
+}
+
+.article-div:hover {
+
 }
 
 .article-div:nth-child(odd) {
@@ -61,10 +65,12 @@ html{
 .article-image{
     padding: 10px;
     margin: 10px;
+    flex: 30%;
 }
 
 .article-img {
     /* image dimensions : 860 * 860 */
+    min-width: 300px;
     width: 100%;
     height: auto;
 }
@@ -73,22 +79,33 @@ html{
 .article-content {
     padding: 10px;
     margin: 10px;
+    flex: 70%;
 }
 
 .article-headline{
-    font-family: "Georgia, sans-serif";
-    font-size: 2em;
-    letter-spacing: -2px;
+    
+    font-family: 'Kaisei HarunoUmi', serif;
     border-bottom: 2px solid black;
     text-transform: uppercase;
 }
 
 .article-subtitle{
-    
+    font-family: 'Kaisei HarunoUmi', serif;
 }
+
+
 a{
     color: black;
     text-decoration: none;
+}
+
+@media (max-width: 850px) {
+    .article-div, .article-image, .article-content {
+        flex-wrap: wrap;
+        flex: 100%;
+        padding: 0px;
+        
+    }
 }
 footer {
     background-color: lavenderblush;
