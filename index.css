@@ -3,8 +3,7 @@ html{
 }
 
 .root-container {
-    margin: 0 auto;
-    width: 70%;
+   
     display: flex;
     flex-direction: column;
 
@@ -22,9 +21,10 @@ html{
 }
 
 .nav-bar {
+    margin: 0 auto;
+    width: 70%;
     font-family: 'Roboto', sans-serif;
-    
-    
+    font-weight: 600; 
 }
 
 .nav-menu {
@@ -35,32 +35,49 @@ html{
     padding: 0px 40px;
 }
 
+.nav-menu li {
+    transition: transform 1s;  
+}
+
+.nav-menu li:hover {
+    transform: scale(110%);
+    border-bottom: 1px solid black;
+}
 .article-list{
     padding: 40px;
 }
 
 .article-div {
-    /* margin: 0 auto;
-    width: 80%; */
+    margin: 0 auto;
+    width: 80%;
     margin: 40px 0px;
     display: flex; 
     cursor: pointer;
     text-align: justify;
 }
 
-.article-div:hover {
-
-}
 
 .article-div:nth-child(odd) {
     float: left;
     flex-direction: row;
+    transition: all 1.5s linear;
 }
 
 .article-div:nth-child(even) {
     float: right;
     flex-direction: row-reverse;
+    transition: transform 1s;     
 }
+
+.article-div:nth-child(odd):hover {
+    transform: scale(110%);
+}
+
+
+.article-div:nth-child(even):hover {
+    transform: scale(110%);
+}
+
 
 .article-image{
     padding: 10px;
@@ -102,10 +119,12 @@ a{
 @media (max-width: 850px) {
     .article-div, .article-image, .article-content {
         flex-wrap: wrap;
-        flex: 100%;
-        padding: 0px;
-        
+        flex: 100%;      
     }
+    .nav-bar{
+        width: 100%;
+    }
+
 }
 footer {
     background-color: lavenderblush;
