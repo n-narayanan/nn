@@ -1,4 +1,4 @@
-const article_list = document.getElementById("article-list");
+const article_list = document.getElementById("published-list");
 
 fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
     .then( (response) => {

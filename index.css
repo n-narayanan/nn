@@ -42,7 +42,19 @@ html {
     transform: scale(110%);
     border-bottom: 1px solid black;
 }
-.article-list {
+
+.menu-heading {
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    background: rgb(152 146 146);
+    color: #ffffff;
+    letter-spacing: 0.75em;
+    word-spacing: 1.5em;
+    padding: 15px;
+    margin-top: 50px;
+}
+.published-list {
     margin-top: 50px ;
 }
 .article-div {
