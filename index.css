@@ -126,8 +126,8 @@ a {
         width: 100%;
     }
     .article-div {
-        width: 80%;
-        margin: 50px 0px;
+        width: 90%;
+        margin: 50px;
     }
     .article-headline { 
         font-size: 2em;
@@ -135,9 +135,21 @@ a {
     .article-subtitle {
         font-size: 1em;
     }
+
+    .menu-heading {
+        font-size: 1.5em;
+        letter-spacing: 0.5em;
+        word-spacing: 1.0em;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .published-list {
+        margin-top: 30px ;
+    }
 }
 
 @media (max-width: 800px) {
+    
     .article-image{
         display: none;
     }
