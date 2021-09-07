@@ -42,12 +42,15 @@ html {
     transform: scale(110%);
     border-bottom: 1px solid black;
 }
-
+.article-list {
+    margin-top: 50px ;
+}
 .article-div {
 	box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
     border-radius: 5px;
     width: 70%;
-    margin: 30px 0px;
+    margin-right: 40px;
+    margin-bottom: 40px;
     display: flex; 
     cursor: pointer;
     background: #ffffff;
@@ -77,6 +80,9 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     flex: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .article-headline{ 
@@ -89,6 +95,13 @@ html {
 .article-subtitle{
     font-family: 'Archivo', serif;
     font-size: 1.125em;
+}
+
+.article-read-more{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: underline;
 }
 
 a {

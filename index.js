@@ -31,8 +31,13 @@ fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
             article_subtitle.className = "article-subtitle";
             article_subtitle.textContent = article.subtitle;
 
+            let article_read_more = document.createElement("p");
+            article_read_more.className = "article-read-more";
+            article_read_more.textContent = "Click to read full story";
+
             article_content.appendChild(article_headline);
             article_content.appendChild(article_subtitle);
+            article_content.appendChild(article_read_more);
 
             article_div.appendChild(article_image);
             article_div.appendChild(article_content);
