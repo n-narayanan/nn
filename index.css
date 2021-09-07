@@ -24,6 +24,7 @@ html {
     width: 70%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300; 
+    font-size: 1.2em
 }
 
 .nav-menu {
@@ -47,7 +48,7 @@ html {
     font-family: 'Archivo', sans-serif;
     text-transform: uppercase;
     font-size: 2.5em;
-    background: rgb(152 146 146);
+    background: #3c3c3c;
     color: #ffffff;
     letter-spacing: 0.75em;
     word-spacing: 1.5em;
