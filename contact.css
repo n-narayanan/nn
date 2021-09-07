@@ -4,33 +4,27 @@ body {
 
 .main-div {
     display: flex;
+    flex-direction: column;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 15px 30px 1px rgb(49, 49, 49);
 }
-
-
-img {
-    width: 400px;
-}
-
 p {
     text-align: justify;
     padding: 20px;
-    width: 300px;
     font-family: 'Roboto', serif;
-    font-size: 1.2em;
+    font-size: 4em;
 }
-
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 50px;
+    width: 75px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin-bottom: 50px;
+    margin-left: 220px;
   }
   
   .fa:hover {
