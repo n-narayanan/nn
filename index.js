@@ -23,7 +23,7 @@ fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
             let article_content = document.createElement("div");
             article_content.className = "article-content";
 
-            let article_headline = document.createElement("h1");
+            let article_headline = document.createElement("p");
             article_headline.className = "article-headline";
             article_headline.textContent = article.title;
 
