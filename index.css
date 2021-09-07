@@ -1,11 +1,11 @@
 html {
-    background: #edeff9;
+    background: #ffffff;
 }
 
 .root-container {
     display: flex;
     flex-direction: column;
-    background: #edeff9;
+    background: #ffffff;
 }
 
 .logo {
@@ -103,6 +103,12 @@ a {
     .article-div {
         width: 80%;
         margin: 50px 0px;
+    }
+    .article-headline { 
+        font-size: 2em;
+    }
+    .article-subtitle {
+        font-size: 1em;
     }
 }
 
