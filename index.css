@@ -1,6 +1,54 @@
-html {
-
+.loading_animation,
+.root-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+.logo-div {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.single-n-1 {
+    opacity: 0;
+    animation-name: draw_logo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.single-n-2 {
+    opacity: 0;
+    animation-name: draw_logo;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes draw_logo {
+    to { opacity: 1;  height: auto; }
+}
+
+.loading_animation {
+    animation-name: loading_logo;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background: #fff;
+    z-index: 10;
+}
+
+@keyframes loading_logo {
+    from { opacity: 1; }
+    to { opacity: 0;  z-index: -1; }
+  }
+
+
 
 .root-container {
     display: flex;
