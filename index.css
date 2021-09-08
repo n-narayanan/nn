@@ -1,11 +1,10 @@
 html {
-    background: #ffffff;
+
 }
 
 .root-container {
     display: flex;
     flex-direction: column;
-    background: #ffffff;
 }
 
 .logo {
@@ -36,11 +35,12 @@ html {
 }
 
 .nav-menu li {
-    transition: transform 0.5s;  
+    padding: 5px;
+    transition: transform 1s;  
 }
 
 .nav-menu li:hover {
-    transform: scale(110%);
+    transform: scale(125%);
     border-bottom: 1px solid black;
 }
 
@@ -50,32 +50,28 @@ html {
     font-size: 2.5em;
     letter-spacing: 0.75em;
     word-spacing: 1.5em;
-    padding: 15px;
-    margin-top: 50px;
+    padding: 20px 40px;
 }
 .published-list {
-    margin-top: 50px ;
+    margin: 30px 100px ;
 }
 .article-div {
 	box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
     border-radius: 5px;
-    width: 70%;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 50px;
     display: flex; 
     cursor: pointer;
-    background: #ffffff;
     transition: transform 1s;  
-    float: right;
 }
 
 .article-div:hover {
-    transform: scale(105%);
+    transform: scale(110%);
 }
 
 .article-image{
     margin: 25px;
-    flex: 30%;
+    flex: 20%;
     display: flex;
 }
 
@@ -86,11 +82,10 @@ html {
     height: auto;
 }
 
-
 .article-content {
     padding-left: 10px;
     padding-right: 10px;
-    flex: 70%;
+    flex: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,6 +96,7 @@ html {
     border-bottom: 1px solid black;
     text-transform: uppercase;
     font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 .article-subtitle{
@@ -123,11 +119,13 @@ a {
 @media (max-width: 1000px) {
     .nav-bar{
         width: 100%;
+        font-size: 1em
     }
-    .article-div {
-        width: 90%;
-        margin: 50px;
+
+    .published-list {
+        margin: 15px 50px ;
     }
+
     .article-headline { 
         font-size: 2em;
     }
@@ -139,11 +137,6 @@ a {
         font-size: 1.5em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
-        padding: 15px;
-        margin-top: 30px;
-    }
-    .published-list {
-        margin-top: 30px ;
     }
 }
 
