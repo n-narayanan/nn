@@ -1,7 +1,15 @@
 body {
-    background: #3c3c3c;
+    background: #fff;
 }
-
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo-img {
+    margin-bottom: 20px;
+    max-width: 100px;
+    max-height: 100px;
+}
 .main-div {
     display: flex;
     position: absolute;
@@ -10,12 +18,9 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 15px 30px 1px rgb(49, 49, 49);
 }
-
-
 img {
     width: 400px;
 }
-
 p {
     text-align: justify;
     padding: 20px;
@@ -23,21 +28,3 @@ p {
     font-family: 'Roboto', serif;
     font-size: 1.2em;
 }
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }

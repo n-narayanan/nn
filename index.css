@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -14,15 +16,24 @@ html, body {
   left: 0;
 }
 
-.logo-div {
+.loading-heading-div {
+    justify-content: center;
     display: flex;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    flex-direction: column;
+    width: 100%;
+}
+
+.loading-heading {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 2.5em;
+    padding: 20px 40px;
+    color: #000;
+
 }
 
 .single-n-1 {
+    font-size: 5em;
     opacity: 0;
     animation-name: draw_logo;
     animation-duration: 2s;
@@ -33,7 +44,7 @@ html, body {
     opacity: 0;
     animation-name: draw_logo;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -42,15 +53,16 @@ html, body {
 }
 
 .loading_animation {
-    animation-name: loading_logo;
-    animation-delay: 3s;
+    display: flex;
+    background: #fff;
+    animation-name: loading_animation;
+    animation-delay: 5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    background: #fff;
     z-index: 10;
 }
 
-@keyframes loading_logo {
+@keyframes loading_animation {
     from { opacity: 1; }
     to { opacity: 0;  z-index: -1; }
   }
@@ -60,11 +72,10 @@ html, body {
     flex-direction: column;
     opacity: 0;
     animation-name: loading_root;
-    animation-delay: 4s;
+    animation-delay: 5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
 
 @keyframes loading_root {
     to { opacity: 1; }
