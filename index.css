@@ -119,6 +119,11 @@ html, body {
     border-bottom: 1px solid black;
 }
 
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
 .menu-heading {
     font-family: 'Archivo', sans-serif;
     text-transform: uppercase;
@@ -184,11 +189,6 @@ html, body {
     font-weight: 300;
     text-align: right;
     text-decoration: underline;
-}
-
-a {
-    color: black;
-    text-decoration: none;
 }
 
 @media (max-width: 1000px) {
