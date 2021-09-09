@@ -38,6 +38,8 @@ html, body {
     animation-name: draw_logo;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    letter-spacing: .3em;
+    word-spacing: .2em;
 }
 
 .single-n-2 {
@@ -46,6 +48,8 @@ html, body {
     animation-delay: 1s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    letter-spacing: .2em;
+    word-spacing: .1em;
 }
 
 @keyframes draw_logo {
