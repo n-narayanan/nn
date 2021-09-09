@@ -123,15 +123,19 @@ html, body {
 }
 .published-list {
     margin: 30px 100px ;
+    display: flex;
+    flex-wrap: wrap;
 }
 .article-div {
+    flex-wrap: wrap;
 	box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
     border-radius: 5px;
-    width: 100%;
-    margin-bottom: 50px;
+    width: 40%;
+    margin: 40px;
     display: flex; 
     cursor: pointer;
     transition: transform 1s;  
+    /* flex-direction: column; */
 }
 
 .article-div:hover {
