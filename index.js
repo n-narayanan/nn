@@ -4,10 +4,15 @@ console.log("THIS IS SNEHA ::: " + window.location.href);
 if ( window.location.href.includes('#photography') || 
     window.location.href.includes('#matters-that-matter') || 
     window.location.href.includes('#published-articles') ) {
-        // animation-duration: 4s;
-        // document.body.animation-duration = 0s;
-        console.log(document.body)
-    }
+        const root_container = document.getElementById('root-container');
+        root_container.style.opacity = 1;
+        root_container.style.animation = 'none';
+        const loading_animation = document.getElementById('loading_animation');
+        loading_animation.style.zIndex = -1;
+        loading_animation.style.animation = 'none';
+        document.getElementById('animation-line-1').style.animation = 'none';
+        document.getElementById('animation-line-2').style.animation = 'none';
+    } 
 
 fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
     .then( (response) => {

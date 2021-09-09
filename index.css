@@ -32,22 +32,17 @@ html, body {
 
 }
 
-.single-n-1 {
+.animation-line-1 {
     font-size: 5em;
     opacity: 0;
-    animation-name: slowly_appear;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation: slowly_appear 2s linear 0s 1 normal forwards;
     letter-spacing: .3em;
     word-spacing: .2em;
 }
 
-.single-n-2 {
+.animation-line-2 {
     opacity: 0;
-    animation-name: slowly_appear;
-    animation-delay: 1s;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+    animation: slowly_appear 4s linear 1s 1 normal forwards;
     letter-spacing: .2em;
     word-spacing: .1em;
 }
@@ -59,10 +54,7 @@ html, body {
 .loading_animation {
     display: flex;
     background: #fff;
-    animation-name: loading_animation;
-    animation-delay: 5s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation: loading_animation 2s linear 5s 1 normal forwards;
     z-index: 10;
 }
 
@@ -75,10 +67,7 @@ html, body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation-name: slowly_appear;
-    animation-delay: 5s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation: slowly_appear 2s linear 5s 1 normal forwards;
 }
 
 
@@ -223,6 +212,9 @@ html, body {
 }
 
 footer {
+    font-family: 'Archivo', serif;
+    font-size: 1.5em;
     background-color: lavenderblush;
     text-align: end;
+    padding: 20px 0px;
 }

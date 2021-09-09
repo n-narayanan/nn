@@ -79,3 +79,14 @@ p {
 
 @media (max-width: 750px) {
 }
+
+footer {
+    font-family: 'Archivo', serif;
+    font-size: 1.5em;
+    background-color: lavenderblush;
+    text-align: end;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
