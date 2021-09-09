@@ -65,8 +65,9 @@ p {
     text-align: justify;
     padding: 20px;
     width: 300px;
-    font-family: 'Roboto', serif;
-    font-size: 1.2em;
+
+    font-family: 'Archivo', serif;
+    font-size: 1.125em;
 }
 
 @media (max-width: 1000px) {

@@ -35,7 +35,7 @@ html, body {
 .single-n-1 {
     font-size: 5em;
     opacity: 0;
-    animation-name: draw_logo;
+    animation-name: slowly_appear;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     letter-spacing: .3em;
@@ -44,7 +44,7 @@ html, body {
 
 .single-n-2 {
     opacity: 0;
-    animation-name: draw_logo;
+    animation-name: slowly_appear;
     animation-delay: 1s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -52,8 +52,8 @@ html, body {
     word-spacing: .1em;
 }
 
-@keyframes draw_logo {
-    to { opacity: 1;  height: auto; }
+@keyframes slowly_appear {
+    to { opacity: 1;  }
 }
 
 .loading_animation {
@@ -75,15 +75,11 @@ html, body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation-name: loading_root;
+    animation-name: slowly_appear;
     animation-delay: 5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
-@keyframes loading_root {
-    to { opacity: 1; }
-  }
 
 
 .logo {

@@ -1,5 +1,14 @@
 const article_list = document.getElementById("published-list");
 
+console.log("THIS IS SNEHA ::: " + window.location.href);
+if ( window.location.href.includes('#photography') || 
+    window.location.href.includes('#matters-that-matter') || 
+    window.location.href.includes('#published-articles') ) {
+        // animation-duration: 4s;
+        // document.body.animation-duration = 0s;
+        console.log(document.body)
+    }
+
 fetch('https://9sneha-n.github.io/nnarayanan/articles/articles.json')
     .then( (response) => {
         console.log("Fetched artcles from server, parsing json" + response);
