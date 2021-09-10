@@ -1,16 +1,22 @@
 [
     {
         "id" : 1,
-        "title" : "Ending malnutrition by 2030 - Is India on target?",
-        "subtitle" : "Malnutrition is the most alarming and persistent health problem faced by the world today as per a recent report of the International Food Policy Research Institute.",
-        "link": "https://www.deccanherald.com/content/648226/is-india-target.html",
-        "image" : "https://9sneha-n.github.io/nnarayanan/content/published_articles/1/image.jpg"
+        "title" : "THE DEMAGOGUE",
+        "subtitle" : "He loves the podium \\n He is master of the stage \\n His oratory mesmerises the masses \\n and make them believe his lies. \\n He promises the land of milk and honey \\n The unsuspecting admirers buy the ticket \\n to the promised land without a thought \\n all the while wilting in misery caused by him and his cronies. \\n While he feigns how he cares for the soldier at the border \\n and for the anguished farmer, \\n the gullible masses trust his tears \\n but his cronies know whose interests he serves. \\n While you trust him and mortgage your brain, \\n his minions decide what you eat, \\n how you dress and how you pray. \\n"
     },
     {
         "id" : 2,
-        "title" : "Labour laws- Reforms for the few",
-        "subtitle" : "At a time when labour law reforms are being debated, it is important to remember that only 6-7% of the total workforce in the country come under the labour laws.",
-        "link": "https://www.deccanherald.com/content/637693/reforms-few.html",
-        "image" : "https://9sneha-n.github.io/nnarayanan/content/published_articles/2/image.jpg"
+        "title" : "",
+        "subtitle" : "Television channels are creating a new mode of public discourse which makes us feel more and think less. Panel discussions on TV have become theatrical. They look like a stage for emotional outbursts rather than a forum for debating of opinions. \\n Unless we learn to react to such programmes with our minds rather than our hearts, all discussions become a farce."
+    },
+    {
+        "id" : 3,
+        "title" : "Fake News",
+        "subtitle" : "As the election date advances the circulation of fake news through social media such as whatsApp is gaining momentum. It is surprising how educated people lap up the fake news without a second thought. \\n In psychology such tendency is called “Confirmation bias”. People believe and accept news however incredible it may be, if it confirms their pre-existing beliefs and prejudices. Wishful thinking leads them to close their minds to logic, reasoning and any evidence to the contrary.\\n The style and content of social discourse of Hindu and Muslim fundamentalists and the tacit and sometimes open support of the ruling elite have helped bullies, hooligans and perverts to acquire the halo and legitimacy of crusaders and missionaries. This may be one of the reasons for the unabating violence."
+    },  
+    {
+        "id" : 4,
+        "title" : "Stereotyping",
+        "subtitle" : "Much of the hatred and violence seen today is due to prejudice borne out of stereotyping. Those who can’t see persons as individuals are carriers of this disease. They either can’t see or don’t want to see the individual’s personality, character, temperament, disposition, inclination etc. They stereotype persons as Muslims, Hindus, Bihari, Tamilian, Indian, Pakistani, Brahmin, dalit, women, transgender etc. Caste discrimination, mistrust of minorities and even war between countries are at least partially due to such standardisation and typecasting."
     }
 ]
