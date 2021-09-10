@@ -77,7 +77,6 @@ html, body {
 }
 
 .logo-img {
-    margin-bottom: 20px;
     max-width: 100px;
     max-height: 100px;
 }
@@ -119,23 +118,25 @@ html, body {
     font-size: 2.5em;
     letter-spacing: 0.75em;
     word-spacing: 1.5em;
-    padding: 20px 40px;
+    padding: 20px 40px 30px 20px;
+    margin: 0;
 }
 .published-list {
-    margin: 30px 100px ;
+    margin: 10px 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .article-div {
     flex-wrap: wrap;
-	box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
+    box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
     border-radius: 5px;
-    width: 40%;
-    margin: 40px;
-    display: flex; 
+    width: 375px;
+    margin: 0 20px 70px 20px;
+    display: flex;
     cursor: pointer;
-    transition: transform 1s;  
-    /* flex-direction: column; */
+    transition: transform 1s;
+    justify-content: center;
 }
 
 .article-div:hover {
@@ -143,38 +144,37 @@ html, body {
 }
 
 .article-image{
-    margin: 25px;
-    flex: 20%;
+    margin: 20px 0 0 0;
     display: flex;
 }
 
 .article-img {
     border-radius: 5px;
     box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
-    width: 100%;
-    height: auto;
+    width: 330px;
+    height: 280px;
 }
 
 .article-content {
     padding-left: 10px;
     padding-right: 10px;
-    flex: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.article-headline{ 
+.article-headline{
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid black;
     text-transform: uppercase;
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin: 15px 0px;
 }
 
 .article-subtitle{
     font-family: 'Archivo', serif;
     font-size: 1.125em;
+    margin: 0;
 }
 
 .article-read-more{
@@ -182,6 +182,7 @@ html, body {
     font-weight: 300;
     text-align: right;
     text-decoration: underline;
+    margin: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -195,23 +196,16 @@ html, body {
     }
 
     .article-headline { 
-        font-size: 2em;
+        font-size: 1.75em;
     }
     .article-subtitle {
         font-size: 1em;
     }
 
     .menu-heading {
-        font-size: 1.5em;
+        font-size: 1.75em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
-    }
-}
-
-@media (max-width: 800px) {
-    
-    .article-image{
-        display: none;
     }
 }
 
