@@ -21,6 +21,7 @@ fetch('https://9sneha-n.github.io/nnarayanan/content/matters_that_matter/article
             let article_subtitle = document.createElement("p");
             article_subtitle.className = "article-subtitle";
             article_subtitle.textContent = article.subtitle;
+            article_subtitle.style.whiteSpace = 'pre';
             article_div.appendChild(article_subtitle);
 
             article_list.appendChild(article_div);

@@ -64,14 +64,14 @@ html, body {
     margin: 0;
 }
 .article-list {
-    margin: 10px 30px;
+    margin: 10px 100px;
     display: flex;
     flex-direction: column;
 }
 .article-div {
     box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
     border-radius: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     padding: 40px;
     cursor: pointer;
     transition: transform 1s;
@@ -102,10 +102,10 @@ html, body {
     }
 
     .article-headline { 
-        font-size: 1.75em;
+        font-size: 1em;
     }
     .article-subtitle {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .menu-heading {
