@@ -9,7 +9,7 @@
     {
         "id" : 2,
         "title" : "Labour laws- Reforms for the few",
-        "subtitle" : "At a time when labour law reforms are being debated, it is important to remember that only 6-7% of the total workforce in the country come under the labour laws. ",
+        "subtitle" : "At a time when labour law reforms are being debated, it is important to remember that only 6-7% of the total workforce in the country come under the labour laws.",
         "link": "https://www.deccanherald.com/content/637693/reforms-few.html",
         "image" : "https://9sneha-n.github.io/nnarayanan/articles/2/image.jpg"
     },
@@ -19,6 +19,13 @@
         "subtitle" : "According to “The People’s Health Movement”, the main cause of poor health of millions across the world is poverty. Poverty is both a cause and a consequence of poor health",
         "link": "https://www.deccanherald.com/content/626129/link-poverty-health.html",
         "image" : "https://9sneha-n.github.io/nnarayanan/articles/3/image.jpg"
+    },
+    {
+        "id" : 6,
+        "title" : "Need to look into status of under trials",
+        "subtitle" : "More than 2.75 lakh undertrials are rotting in Indian prisons even though their guilt is yet to be proved",
+        "link": "https://www.deccanherald.com/content/540741/need-look-status-undertrials.html",
+        "image" : "https://9sneha-n.github.io/nnarayanan/articles/6/image.jpg"
     },
     {
         "id" : 4,
@@ -34,11 +41,26 @@
         "link": "https://www.deccanherald.com/content/582353/never-ending-ordeal-migrant-workers.html",
         "image" : "https://9sneha-n.github.io/nnarayanan/articles/5/image.jpg"
     },
+   
     {
-        "id" : 6,
-        "title" : "Need to look into status of under trials",
-        "subtitle" : "More than 2.75 lakh undertrials are rotting in Indian prisons even though their guilt is yet to be proved",
-        "link": "https://www.deccanherald.com/content/540741/need-look-status-undertrials.html",
-        "image" : "https://9sneha-n.github.io/nnarayanan/articles/6/image.jpg"
+        "id" : 7,
+        "title" : "A decade after SC ruling, police reforms remain on paper",
+        "subtitle" : "Though times and circumstances have changed, police in India are yet to imbibe qualities suitable for a democratic society.",
+        "link": "https://www.deccanherald.com/content/572417/a-decade-sc-ruling-police.html",
+        "image" : "https://9sneha-n.github.io/nnarayanan/articles/7/image.jpg"
+    },
+    {
+        "id" : 8,
+        "title" : "RTE: Good in intent but lacking in drive",
+        "subtitle" : "Appreciation of the value of inclusiveness and integration must be a part of training course for teachers.",
+        "link": "https://www.deccanherald.com/content/496911/rte-good-intent-drive-lacking.html",
+        "image" : "https://9sneha-n.github.io/nnarayanan/articles/8/image.jpg"
+    },
+    {
+        "id" : 9,
+        "title" : "Health for all through public healthcare",
+        "subtitle" : "India has emerged as an important location for medical tourism and patients from across the world come here for specialised treatment. But a common man in the country has no access even to primary healthcare.",
+        "link": "https://www.deccanherald.com/content/481243/health-all-through-public-healthcare.html",
+        "image" : "https://9sneha-n.github.io/nnarayanan/articles/9/image.jpg"
     }
 ]
