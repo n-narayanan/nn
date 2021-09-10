@@ -55,16 +55,17 @@ html, body {
 .main-div {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px 50px;
   
 }
 .about-img {
     width: 400px;
+    height: auto;
 }
 p {
     text-align: justify;
     padding: 20px;
-    width: 300px;
+    width: 500px;
     font-family: 'Archivo', serif;
     font-size: 1.125em;
 }
@@ -74,12 +75,19 @@ p {
         width: 100%;
         font-size: 1em
     }
+    .main-div {
+        padding: 10px;
+    }
+    .about-img { 
+        width: 250px;
+    }
+
+    p {
+        width: 300px;
+        font-size: 1rem;
+    }
 }
 
-@media (max-width: 750px) {
-    .about-img {width: 300px;}
-    p { width: 200px;}
-}
 
 footer {
     font-family: 'Archivo', serif;
