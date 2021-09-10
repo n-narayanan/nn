@@ -17,13 +17,10 @@ fetch('https://9sneha-n.github.io/nnarayanan/content/matters_that_matter/article
                 article_headline.textContent = article.title;
                 article_div.appendChild(article_headline);
             }
-
             let article_subtitle = document.createElement("p");
             article_subtitle.className = "article-subtitle";
-            article_subtitle.textContent = article.subtitle;
-            article_subtitle.style.whiteSpace = 'pre';
+            article_subtitle.innerText = article.subtitle;
             article_div.appendChild(article_subtitle);
-
             article_list.appendChild(article_div);
         });
     })
