@@ -11,6 +11,7 @@ html, body {
 .root-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .logo {
@@ -63,11 +64,22 @@ html, body {
     padding: 20px 40px 30px 20px;
     margin: 0;
 }
-.photography-list {
-    margin: 10px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.photograph-list {
+    flex: 1 1 auto;
+   border: 1px solid black;
+}
+
+@media (max-width: 1000px) {
+    .nav-bar{
+        width: 100%;
+        font-size: 1em
+    }
+
+    .menu-heading {
+        font-size: 1.75em;
+        letter-spacing: 0.5em;
+        word-spacing: 1.0em;
+    }
 }
 
 
