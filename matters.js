@@ -18,7 +18,7 @@ fetch('https://9sneha-n.github.io/nnarayanan/content/matters_that_matter/article
             article_div.appendChild(article_headline);
 
             let article_date = document.createElement("p");
-            article_date.className = "article-subtitle";
+            article_date.className = "article-date";
             article_date.textContent = article.date;
             article_div.appendChild(article_date);
 

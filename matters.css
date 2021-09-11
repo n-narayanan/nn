@@ -90,6 +90,13 @@ html, body {
     font-size: 1.125em;
     margin: 0;
 }
+
+.article-date {
+    font-family: 'Archivo', serif;
+    font-size: 1em;
+    margin-bottom: 25px;
+    font-style: italic;
+}
 .article-read-more{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
