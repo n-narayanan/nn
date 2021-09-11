@@ -85,7 +85,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid black;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 15px 0px;
 }
 
@@ -104,6 +104,14 @@ html, body {
         font-size: 1.75em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
+    }
+    
+    .article-headline{
+        font-size: 2em;
+    }
+
+    .article-subtitle{
+        font-size: 1em;
     }
 }
 
