@@ -98,7 +98,6 @@ html, body {
 @media (max-width: 1000px) {
     .nav-bar{
         width: 100%;
-        font-size: 1em
     }
 
     .menu-heading {
