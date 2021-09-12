@@ -9,16 +9,17 @@ fetch('https://9sneha-n.github.io/nnarayanan/content/matters_that_matter/article
         data.forEach(article => {
 
             let article_div = document.createElement("div");
-            article_div.id = article.id;
             article_div.className = "article-div";
 
-            let article_headline = document.createElement("p");
+            let article_headline = document.createElement("a");
             article_headline.className = "article-headline";
             article_headline.textContent = article.title;
+            article_headline.href = '#' + article.id;
             article_div.appendChild(article_headline);
 
             let article_date = document.createElement("p");
             article_date.className = "article-date";
+            article_date.id =  article.id;
             article_date.textContent = article.date;
             article_div.appendChild(article_date);
 

@@ -74,10 +74,13 @@ html, body {
     margin-bottom: 50px;
     padding: 30px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
 .article-headline{
+    text-decoration: none;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid black;
     text-transform: uppercase;
@@ -92,7 +95,7 @@ html, body {
 }
 
 .article-date {
-    font-family: 'Archivo', serif;
+    font-family: 'Roboto', serif;
     font-size: 1em;
     margin-bottom: 25px;
     font-style: italic;
@@ -101,8 +104,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: right;
+    margin-top: 20px;
     text-decoration: underline;
-    margin: 10px;
 }
 @media (max-width: 1000px) {
     .nav-bar{
@@ -110,17 +113,9 @@ html, body {
     }
 
     .menu-heading {
-        font-size: 1.75em;
+        font-size: 2em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
-    }
-    
-    .article-headline{
-        font-size: 2em;
-    }
-
-    .article-subtitle{
-        font-size: 1em;
     }
 }
 

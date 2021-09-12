@@ -53,6 +53,7 @@ html, body {
 
 .loading_animation {
     display: flex;
+    flex-direction: column;
     background: #fff;
     animation: loading_animation 2s linear 5s 1 normal forwards;
     z-index: 10;
@@ -167,13 +168,13 @@ html, body {
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid black;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 15px 0px;
 }
 
 .article-subtitle{
     font-family: 'Archivo', serif;
-    font-size: 1.125em;
+    font-size: 1.25em;
     margin: 0;
 }
 
