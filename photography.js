@@ -9,10 +9,11 @@ fetch('https://9sneha-n.github.io/nnarayanan/content/photography/photography.jso
         data.forEach(photograph => {
 
             let photograph_div = document.createElement("div");
-            photograph_div.className = "article-div";
+            photograph_div.className = "photo-div";
 
 
             let phtograph_img = document.createElement("img");
+            phtograph_img.className = "photo-img";
             phtograph_img.src = photograph.image;
             photograph_div.appendChild(phtograph_img);
 

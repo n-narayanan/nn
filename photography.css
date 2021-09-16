@@ -65,9 +65,19 @@ html, body {
     margin: 0;
 }
 .photograph-list {
-  padding: 50px;
-  flex: 1 1 auto;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}
+.photo-div{
+  margin: auto;
+}
 
+.photo-img {
+  width: 500px;
+  height: auto;
 }
 
 @media (max-width: 1000px) {
