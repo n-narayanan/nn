@@ -65,8 +65,9 @@ html, body {
     margin: 0;
 }
 .photograph-list {
-    flex: 1 1 auto;
-   border: 1px solid black;
+  padding: 50px;
+  flex: 1 1 auto;
+
 }
 
 @media (max-width: 1000px) {
@@ -84,8 +85,8 @@ html, body {
 
 footer {
     font-family: 'Archivo', serif;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     background-color: lavenderblush;
     text-align: end;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
