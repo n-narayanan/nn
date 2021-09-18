@@ -6,9 +6,9 @@ if ( window.location.href.includes('#photography') ||
         const root_container = document.getElementById('root-container');
         root_container.style.opacity = 1;
         root_container.style.animation = 'none';
-        const loading_animation = document.getElementById('loading_animation');
-        loading_animation.style.zIndex = -1;
-        loading_animation.style.animation = 'none';
+        const loading_animation_root = document.getElementById('loading_animation_root');
+        loading_animation_root.style.zIndex = -1;
+        loading_animation_root.style.animation = 'none';
         document.getElementById('animation-line-1').style.animation = 'none';
         document.getElementById('animation-line-2').style.animation = 'none';
     } 

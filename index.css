@@ -8,7 +8,7 @@ html, body {
     left: 0;    
 }
 
-.loading_animation, .root-container {
+.loading_animation_root, .root-container {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -16,47 +16,17 @@ html, body {
   left: 0;
 }
 
-.loading-heading-div {
+.loading_animation_root {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.loading-heading {
-    text-align: center;
-    font-family: 'Archivo', sans-serif;
-    font-size: 2.5em;
-    padding: 20px 40px;
-    color: #000;
-
-}
-
-.animation-line-1 {
-    font-size: 5em;
-    opacity: 0;
-    animation: slowly_appear 2s linear 0s 1 normal forwards;
-    letter-spacing: .3em;
-    word-spacing: .2em;
-}
-
-.animation-line-2 {
-    opacity: 0;
-    animation: slowly_appear 4s linear 1s 1 normal forwards;
-    letter-spacing: .2em;
-    word-spacing: .1em;
-}
-
-@keyframes slowly_appear {
-    to { opacity: 1;  }
-}
-
-.loading_animation {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    animation: loading_animation 2s linear 5s 1 normal forwards;
+    animation: loading_animation 1s linear 8s 1 normal forwards, backgroundScroll 8s forwards;
     z-index: 10;
+    background-image: url(./content/photography/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    color: #000;
 }
 
 @keyframes loading_animation {
@@ -64,11 +34,47 @@ html, body {
     to { opacity: 0;  z-index: -1; }
   }
 
+@keyframes backgroundScroll {
+    from {background-position: left ;}
+    to {background-position: bottom;}
+}
+
+.animation-line-1 {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 5em;
+    letter-spacing: .3em;
+    word-spacing: .2em; 
+    opacity: 0;
+    margin: 0 auto;
+    animation: slowly_appear 2s linear 0s 1 normal forwards;
+    width: fit-content;
+    color: aliceblue;
+}
+.animation-line-2 {
+    opacity: 0;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: .3em;
+    word-spacing: .2em; 
+    margin: 0 auto;
+    animation: slowly_appear 3s linear 2s 1 normal forwards;
+    width: fit-content;
+    color: aliceblue;
+}
+
+
 .root-container {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation: slowly_appear 2s linear 5s 1 normal forwards;
+    animation: slowly_appear 1s linear 8s 1 normal forwards;
+}
+@keyframes slowly_appear {
+    to { 
+        opacity: 1;
+    }
 }
 
 
