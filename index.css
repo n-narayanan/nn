@@ -49,19 +49,20 @@ html, body {
     margin: 0 auto;
     animation: slowly_appear 2s linear 0s 1 normal forwards;
     width: fit-content;
-    color: aliceblue;
+    color: #fff;
 }
 .animation-line-2 {
     opacity: 0;
-    text-align: center;
+    text-align: right;
     font-family: 'Archivo', sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
     letter-spacing: .3em;
     word-spacing: .2em; 
-    margin: 0 auto;
+    margin: 80px auto;
+    padding: 20px;
     animation: slowly_appear 3s linear 2s 1 normal forwards;
-    width: fit-content;
-    color: aliceblue;
+    color: #fff;
+
 }
 
 .root-container {
@@ -202,9 +203,14 @@ html, body {
     }
 
     .menu-heading {
-        font-size: 2em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
+    }
+}
+
+@media (max-device-width: 500px) {
+    .article-subtitle {
+        font-size: 1.75em;
     }
 }
 

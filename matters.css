@@ -113,9 +113,14 @@ html, body {
     }
 
     .menu-heading {
-        font-size: 2em;
         letter-spacing: 0.5em;
         word-spacing: 1.0em;
+    }
+}
+
+@media (max-device-width: 500px) {
+    .article-subtitle {
+        font-size: 1em;
     }
 }
 
