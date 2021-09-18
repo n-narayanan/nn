@@ -64,13 +64,13 @@ html, body {
     color: aliceblue;
 }
 
-
 .root-container {
     display: flex;
     flex-direction: column;
     opacity: 0;
     animation: slowly_appear 1s linear 8s 1 normal forwards;
 }
+
 @keyframes slowly_appear {
     to { 
         opacity: 1;
@@ -210,8 +210,7 @@ html, body {
 
 footer {
     font-family: 'Archivo', serif;
-    font-size: 1.5em;
     background-color: lavenderblush;
     text-align: end;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
