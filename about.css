@@ -68,7 +68,7 @@ p {
     padding: 20px;
     width: 500px;
     font-family: 'Archivo', serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 @media (max-width: 1000px) {
