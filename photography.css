@@ -80,6 +80,10 @@ html, body {
   height: auto;
 }
 
+.photo-img:hover {
+    transform: scale(150%);
+  }
+
 @media (max-width: 1000px) {
     .nav-bar{
         width: 100%;
