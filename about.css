@@ -64,11 +64,10 @@ html, body {
     width: 500px;
 }
 p {
-    text-align: justify;
     padding: 20px;
     width: 500px;
     font-family: 'Archivo', serif;
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 @media (max-width: 1000px) {

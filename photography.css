@@ -61,6 +61,14 @@ html, body {
     font-size: 2.5em;
     letter-spacing: 0.75em;
     word-spacing: 1.5em;
+    padding: 20px 40px 10px 20px;
+    margin: 0;
+}
+
+.description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.75em;
+    font-weight: 300;
     padding: 20px 40px 30px 20px;
     margin: 0;
 }
