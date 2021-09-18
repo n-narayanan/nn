@@ -39,6 +39,10 @@ html, body {
     to {background-position: bottom;}
 }
 
+.animated_text {
+    padding: 25px;
+}
+
 .animation-line-1 {
     text-align: center;
     font-family: 'Archivo', sans-serif;
@@ -54,12 +58,10 @@ html, body {
 .animation-line-2 {
     opacity: 0;
     text-align: right;
-    font-family: 'Archivo', sans-serif;
-    font-size: 3.5em;
-    letter-spacing: .3em;
-    word-spacing: .2em; 
-    margin: 80px auto;
-    padding: 20px;
+    font-family: 'Kunstler Script', sans-serif;
+    font-size: 5em;
+    margin: 75px auto;
+    padding-right: 40px;
     animation: slowly_appear 3s linear 2s 1 normal forwards;
     color: #fff;
 
