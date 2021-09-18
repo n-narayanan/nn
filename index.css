@@ -58,7 +58,7 @@ html, body {
 .animation-line-2 {
     opacity: 0;
     text-align: right;
-    font-family: 'Kunstler Script', sans-serif;
+    font-family: 'Kunstler Script', 'Archivo', sans-serif;
     font-size: 5em;
     margin: 75px auto;
     padding-right: 40px;
