@@ -14,7 +14,7 @@ if ( window.location.href.includes('#photography') ||
         document.getElementById('animation-line-2').style.animation = 'none';
     } 
 
-fetch('https://9sneha-n.github.io/nnarayanan/content/published_articles/published_articles.json')
+fetch('https://n-narayanan.github.io/nn/content/published_articles/published_articles.json')
     .then( (response) => {
         console.log("Fetched artcles from server, parsing json" + response);
         return response.json();
