@@ -1,6 +1,6 @@
 const article_list = document.getElementById("article-list");
 
-fetch('https://9sneha-n.github.io/nnarayanan/content/matters_that_matter/articles.json')
+fetch('https://n-narayanan.github.io/nn/content/matters_that_matter/articles.json')
     .then( (response) => {
         console.log("Fetched artcles from server, parsing json" + response);
         return response.json();
