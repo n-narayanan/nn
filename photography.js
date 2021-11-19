@@ -1,6 +1,6 @@
 const photograph_list = document.getElementById("photograph-list");
 
-fetch('https://9sneha-n.github.io/nnarayanan/content/photography/photography.json')
+fetch('https://n-narayanan.github.io/nn/content/photography/photography.json')
     .then( (response) => {
         console.log("Fetched artcles from server, parsing json" + response);
         return response.json();
