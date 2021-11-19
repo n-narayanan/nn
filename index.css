@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.loading_animation_root, .root-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.loading_animation_root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: loading_animation 1s linear 8s 1 normal forwards, backgroundScroll 8s forwards;
+    z-index: 10;
+    background-image: url(./content/photography/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    color: #000;
+}
+
+@keyframes loading_animation {
+    from { opacity: 1; }
+    to { opacity: 0;  z-index: -1; }
+  }
+
+@keyframes backgroundScroll {
+    from {background-position: left ;}
+    to {background-position: bottom;}
+}
+
+.animated_text {
+    padding: 25px;
+}
+
+.animation-line-1 {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 5em;
+    letter-spacing: .3em;
+    word-spacing: .2em; 
+    opacity: 0;
+    margin: 0 auto;
+    animation: slowly_appear 2s linear 0s 1 normal forwards;
+    width: fit-content;
+    color: #fff;
+}
+.animation-line-2 {
+    opacity: 0;
+    text-align: right;
+    font-family: 'Kunstler Script', 'Archivo', sans-serif;
+    font-size: 5em;
+    margin: 75px auto;
+    padding-right: 40px;
+    animation: slowly_appear 3s linear 2s 1 normal forwards;
+    color: #fff;
+
+}
+
+.root-container {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    animation: slowly_appear 1s linear 8s 1 normal forwards;
+}
+
+@keyframes slowly_appear {
+    to { 
+        opacity: 1;
+    }
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+    font-size: 1.2em
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.nav-menu li {
+    padding: 5px;
+    transition: transform 1s;  
+}
+
+.nav-menu li:hover {
+    transform: scale(125%);
+    border-bottom: 1px solid black;
+}
+
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.menu-heading {
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 0.75em;
+    word-spacing: 1.5em;
+    padding: 20px 40px 30px 20px;
+    margin: 0;
+}
+.published-list {
+    margin: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.article-div {
+    flex-wrap: wrap;
+    box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
+    border-radius: 5px;
+    width: 375px;
+    margin: 0 20px 70px 20px;
+    display: flex;
+    cursor: pointer;
+    transition: transform 1s;
+    justify-content: center;
+}
+
+.article-div:hover {
+    transform: scale(110%);
+}
+
+.article-image{
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.article-img {
+    border-radius: 5px;
+    box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
+    width: 330px;
+    height: 280px;
+}
+
+.article-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-headline{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 15px 0px;
+}
+
+.article-subtitle{
+    font-family: 'Archivo', serif;
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.article-read-more{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+@media (max-width: 1000px) {
+
+    .published-list {
+        margin: 15px 50px ;
+    }
+
+    .menu-heading {
+        letter-spacing: 0.5em;
+        word-spacing: 1.0em;
+    }
+}
+
+@media (max-device-width: 500px) {
+    .article-subtitle {
+        font-size: 1.75em;
+    }
+}
+
+footer {
+    font-family: 'Archivo', serif;
+    background-color: lavenderblush;
+    text-align: end;
+    padding: 0px 0px;
+}

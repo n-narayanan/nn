@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.root-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+    font-size: 1.2em
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.nav-menu li {
+    padding: 5px;
+    transition: transform 1s;  
+}
+
+.nav-menu li:hover {
+    transform: scale(125%);
+    border-bottom: 1px solid black;
+}
+
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.menu-heading {
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 0.75em;
+    word-spacing: 1.5em;
+    padding: 20px 40px 30px 20px;
+    margin: 0;
+}
+.article-list {
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.article-div {
+    box-shadow: 0 15px 30px 1px rgb(128, 128, 128);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.article-headline{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-size: 2.5em;   
+    margin: 10px 0px;
+}
+
+.article-subtitle{
+    font-family: 'Archivo', serif;
+    font-size: 1.125em;
+    margin: 0;
+}
+
+.article-date {
+    font-family: 'Roboto', serif;
+    font-size: 1em;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+.article-read-more{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+@media (max-width: 1000px) {
+
+    .menu-heading {
+        letter-spacing: 0.5em;
+        word-spacing: 1.0em;
+    }
+}
+
+@media (max-device-width: 500px) {
+    .article-subtitle {
+        font-size: 1em;
+    }
+}
+
+footer {
+    font-family: 'Archivo', serif;
+    background-color: lavenderblush;
+    text-align: end;
+    padding: 0px 0px;
+}
